@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><title> Solar Graphs </title></head>
+
+<body>
+
+<h1> Solar Graphs </h1>
+
+<p> The following graphs show the output from our <a href="./">solar
+panels</a>. </p>
+
+<!-- This will only work if you have mod-include enabled in your
+     apache web-server.  This means something like the following
+     in your httpd.conf:
+
+	# have the server parse the .shtml extension files
+	AddType text/html .shtml
+	AddHandler server-parsed .shtml
+	# or
+	# Options ExecCGI Includes
+	# and chmod 755 plot.shtml
+
+     You'd need to stick a # sign so it looks like '#include' before
+     the following will work.
+
+     -->
+<!--include virtual="plot.cgi?$QUERY_STRING" -->
+
+</body>
+</html>
