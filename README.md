@@ -1,5 +1,5 @@
 The following files in this directory were written to monitor and report on the output from my SMA Sunnyboy Solar PV
-Inverters.
+Inverters.  They drive the simple graphs on the [Watson solar house data](https://256stuff.com/solar/) page.
 
 plot.pl
 =======
